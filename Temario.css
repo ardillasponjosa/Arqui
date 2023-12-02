@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para títulos principales */
+h3 {
+    color: #4285f4; /* Color del título principal */
+    margin-top: 20px; /* Espaciado superior entre títulos */
+}
+
+/* Estilos para subtítulos */
+h3 + h3 {
+    margin-top: 40px; /* Espaciado superior entre títulos secundarios */
+}
+
+/* Estilos para los elementos de la lista */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Estilos para los enlaces dentro de la lista */
+ul a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none;
+    border-bottom: 1px dashed #007bff; /* Línea punteada al pasar el ratón sobre el enlace */
+    transition: border-bottom 0.3s ease;
+}
+
+ul a:hover {
+    border-bottom: 1px solid #007bff; /* Línea sólida al pasar el ratón sobre el enlace */
+}
+
+/* Espaciado inferior entre elementos de la lista */
+li {
+    margin-bottom: 10px;
+}

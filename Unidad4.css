@@ -1,0 +1,25 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Estilos específicos para este documento */
+h1 {
+    color: #2e8b57; /* Verde oscuro */
+    text-align: center;
+}
+
+h2 {
+    color: #8b4513; /* Marrón oscuro */
+}
+
+/* Añade más estilos según sea necesario */

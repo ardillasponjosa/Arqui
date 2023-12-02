@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Color de fondo */
+    color: #333; /* Color del texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos específicos para las secciones */
+#procesadorInfo, #procesadorInfo2, #procesadorInfo3, #procesadorInfo4 {
+    background-color: #fff; /* Color de fondo de las secciones */
+    border: 1px solid #ddd; /* Borde alrededor de las secciones */
+    margin-bottom: 20px; /* Espaciado inferior entre secciones */
+    padding: 20px;
+}
+
+/* Estilos para títulos principales */
+h1 {
+    color: #2e8b57; /* Color del título principal */
+}
+
+/* Estilos para subtítulos */
+h2 {
+    color: #8b4513; /* Color de los subtítulos */
+}
+
+/* Estilos para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* Espaciado inferior entre elementos de la lista */
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Espaciado inferior de las imágenes */
+}

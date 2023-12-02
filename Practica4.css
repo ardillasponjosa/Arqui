@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #333; /* Color del texto principal */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos específicos para las secciones */
+#fuenteAlimentacionInfo, #enfriadorCpuInfo, #discoDuroInfo, #procesadorAmdInfo, #ramNanyaInfo, #tarjetaVideoZogisInfo {
+    background-color: #fff; /* Color de fondo de las secciones */
+    border: 1px solid #ddd; /* Borde alrededor de las secciones */
+    margin-bottom: 20px; /* Espaciado inferior entre secciones */
+    padding: 20px;
+}
+
+/* Estilos para títulos principales */
+h1 {
+    color: #4285f4; /* Color del título principal */
+}
+
+/* Estilos para subtítulos */
+h2 {
+    color: #ea4335; /* Color de los subtítulos */
+}
+
+/* Estilos para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px; /* Espaciado inferior entre elementos de la lista */
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Espaciado inferior de las imágenes */
+}

@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8; /* Color de fondo */
+    color: #333; /* Color de texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #2e8b57; /* Color de fondo del encabezado y el pie de página */
+    color: #fff; /* Color del texto del encabezado y el pie de página */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos específicos para la sección de práctica 1 */
+#practica1 h1, #practica1 h2, #practica1 h3, #practica1 h4 {
+    color: #8b4513; /* Color de los títulos */
+}
+
+#practica1 p, #practica1 ul, #practica1 li {
+    color: #555; /* Color del texto principal */
+}
+
+#practica1 img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0; /* Espaciado inferior de las imágenes */
+}
+
+/* Estilos específicos para las secciones de práctica 2 y cooler */
+#practica2, #cooler {
+    background-color: #fff; /* Color de fondo de las secciones */
+    padding: 20px;
+    margin-top: 20px; /* Espaciado superior entre secciones */
+}
+
+#practica2 h2, #cooler h2 {
+    color: #2e8b57; /* Color de los títulos de las secciones */
+}
